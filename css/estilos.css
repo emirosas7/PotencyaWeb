@@ -1,0 +1,365 @@
+* {
+    font-family: "Alumni Sans SC", sans-serif;
+}
+
+.logotipo {
+
+    width: 10rem;
+    height: 5rem;
+}
+
+.index-h1{
+
+    color: white;
+   
+    max-width: unset;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+
+.banner{
+
+    color: white;
+    max-width: unset;
+
+}
+
+.WppLogo{
+
+    width: 4rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.fondoWpp{
+
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.sucursales-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-header {
+
+    background-image: url(../imagenes/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100;
+    max-width: unset;
+}
+
+.btn-header {
+
+    background-color: rgb(65, 29, 95);
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.contenedor-inferior-header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    height: 50%;
+    max-width: 30rem;
+    margin-left: 1rem;
+    max-width: unset;
+
+    
+}
+
+.servicios {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+
+
+
+.navegacion-sup ul li a {
+
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.index-header-flex {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1 {
+
+    color: aliceblue;
+    font-size: 9rem;
+    text-align: center;
+}
+    
+p {
+
+    font-size: 19px;
+}
+
+.servicios-destacados, .bienvenido {
+
+    text-align: center;
+    background-color: rgb(27, 8, 45);
+    color: blanchedalmond;
+}
+
+main{
+
+    background-color: rgb(168, 90, 242);
+}
+
+/* Contenedor principal */
+.clientes {
+  padding: 60px 20px;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.clientes .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clientes h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #10b981;
+}
+
+.clientes p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #4b5563;
+}
+
+/* Logos */
+.clientes-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.clientes-logos img {
+  height: 60px;
+  max-width: 140px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.clientes-logos img:hover {
+  filter: grayscale(0%);
+}
+
+
+.testimonios h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #10b981;
+}
+
+.testimonios{
+    background-color: #661366;
+    color: aliceblue;
+}
+
+
+
+
+.btn-s1 {
+
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    
+}
+
+
+
+.btn-s2 {
+
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: 300px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.buttons button {
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 50%;
+}
+
+.buttons button:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.footer {
+  background-color: #111827;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-brand h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #10b981;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #d1d5db;
+}
+
+.footer-links,
+.footer-social {
+  min-width: 150px;
+}
+
+.footer-links h3,
+.footer-social h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #10b981;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a,
+.footer-social a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #10b981;
+}
+
+.footer-bottom {
+  border-top: 1px solid #374151;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-links,
+  .footer-social {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+@media only screen and (mind-widht: 900px){
+   
+    
+    ul,.index-header-flex{
+       flex-direction: row;
+
+    }
+
+    .sucursales-main-container{
+        flex-direction: row;
+    }
+}
