@@ -351,7 +351,8 @@ main{
 
 
 
-@media only screen and (mind-widht: 900px){
+@media only screen and (min-width: 900px){
+
    
     
     ul,.index-header-flex{
