@@ -1,0 +1,75 @@
+.logotipo {
+
+    width: 10rem;
+    height: 5rem;
+}
+
+.index-h1{
+
+    color: $colorBlanco;
+   
+    max-width: unset;
+
+}
+
+ul {
+    list-style: none;
+
+    @extend %flexcolumn;
+    
+}
+
+.navegacion-sup ul li a {
+
+    color: $colorBlanco;
+    text-decoration: none;
+
+
+}
+
+.index-header-flex {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.banner{
+
+    color: $colorBlanco;
+    max-width: unset;
+
+}
+
+.index-header {
+
+    background-image: url(../imagenes/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100;
+    max-width: unset;
+}
+
+.btn-header {
+
+    background-color: $PrimaryColor;
+    color: $colorBlanco;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.contenedor-inferior-header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    height: 50%;
+    max-width: 30rem;
+    margin-left: 1rem;
+    max-width: unset;
+    }
